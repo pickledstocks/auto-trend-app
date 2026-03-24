@@ -1,0 +1,31 @@
+stock-trend-app/
+├─ .github/
+│  └─ workflows/
+│     └─ ci.yml
+├─ public/
+├─ src/
+│  ├─ app/
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  ├─ page.tsx
+│  │  └─ ticker/
+│  │     └─ [symbol]/
+│  │        └─ page.tsx
+│  ├─ components/
+│  │  ├─ PriceChart.tsx
+│  │  ├─ SignalCard.tsx
+│  │  ├─ TrendBadge.tsx
+│  │  └─ Watchlist.tsx
+│  └─ lib/
+│     ├─ api.ts
+│     ├─ indicators.ts
+│     ├─ storage.ts
+│     └─ types.ts
+├─ .env.local
+├─ .gitignore
+├─ next.config.ts
+├─ package.json
+├─ postcss.config.js
+├─ tailwind.config.ts
+├─ tsconfig.json
+└─ README.md
